@@ -1,0 +1,3 @@
+var msg = new SpeechSynthesisUtterance();
+msg.text = "Hi I am Jay Bhavsar";
+window.speechSynthesis.speak(msg);
